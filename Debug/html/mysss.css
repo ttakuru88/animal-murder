@@ -1,0 +1,140 @@
+body{
+	background-color: skyblue;
+}
+
+
+#header{	
+	width: 100%;
+	height: 15%;
+	background-color: #c7f5aa;
+}
+#header h1{
+	color: black;
+	background-color: #c7f5aa;
+	width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	border-top-width: 1px;
+	border-right-width: 5px;
+	border-bottom-width: 1px;
+	border-left-width: 5px;
+	border-color: #aa0000;
+	border-style: solid;
+	padding-top: 5px;
+}
+
+
+#sidenavi{
+	width: 15%;
+	height: 100%;
+	float: left;
+	background-color: #a3f452;
+}
+#sidenavi .ult{
+	background-color: #a3f452;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	border-style: solid;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-right-width: 0px;
+	border-color: #aa0000;
+}
+
+#sidenavi a{
+	text-decoration: none;
+}
+
+#all{
+	height:85%;
+}
+
+#sidenavi a.menu{
+	display: block;
+	color: #cccccc;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	font-size: 14px;
+}
+#sidenavi span.nowmenu{
+	display: block;
+	color: #aaaaaa;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	font-size: 14px;
+}
+
+#sidenavi a.menu:hover{
+	background-color: #c7f5aa;
+}
+#sidenavi a:link{
+	color: #000000;
+}
+#sidenavi a:visited{
+	color: #444444;
+}
+
+#contents{
+	width: 85%;
+	height:100%;
+	float: left;
+	background-color: #ffccff;
+}
+#contents p{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #ffccff;
+	border-color: #aa0000;
+	border-left-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-style: solid;
+}
+#contents .head2{
+	font-size: 25px;
+	margin: 0px;
+	padding: 5px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-style: solid;
+	border-color: #aa0000;
+}
+
+#contents .head3{
+	font-size: 18px;
+	margin: 0px;
+	padding: 10px;
+	font-weight: bold;
+}
+#contents .word{
+	margin-left: 40px;
+}
+#contents .wordtbl{
+	margin-left: 20px;
+}
+#contents .ttop{
+	vertical-align: baseline;
+	width: 135px;
+	font-size: 13px;
+	line-height: 12px;
+}
+#contents a{
+	text-decoration: none;
+}
+#contents a:hover{
+	margin-left: 7px;	
+}
